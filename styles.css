@@ -23,17 +23,17 @@ li a:hover {
     background-color: #CCE6AA;
 }
 
-ul.sustRPI {
+.sustRPI {
     font-family: 'Archivo Black', charcoal, sans-serif;
     font-size: 25px;
     color: #FAFCF7;
 }
-ul.hlink {
+.hlink {
     font-family: 'Archivo Black', charcoal, sans-serif;
     font-size: 23px;
     color: #CCE6AA;
 }
-ul.hcurrpg {
+.hcurrpg {
     font-family: 'Archivo Black', charcoal, sans-serif;
     font-size: 23px;
     color: #FAFCF7;
