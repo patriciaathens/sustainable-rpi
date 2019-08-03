@@ -36,6 +36,8 @@ a.hactive:hover, a.hnotactive:hover {
 }
 
 /* front page elements */
-
+.topbanner {
+    background: url('/images/frontimage.png') no-repeat fixed center center;
+}
 
 /* subpage elements */
