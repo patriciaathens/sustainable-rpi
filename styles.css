@@ -39,6 +39,8 @@ h2 {
     color: #FAFCF7;
 }
 
+body { margin: 0; }
+
 /* FRONT PAGE ELEMENTS: */
 /* top banner + text */
 .top-banner {
@@ -48,7 +50,7 @@ h2 {
     margin: 0;
     padding: 0;
     background: url('images/frontimage.png') no-repeat fixed center center;
-    background-size: contain;
+    background-size: cover;
     height: 500px;
 }
 .banner-text {
