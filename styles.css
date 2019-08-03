@@ -44,17 +44,18 @@ h2 {
     margin: 0;
     padding: 0;
     background: url('images/frontimage.png') no-repeat fixed center center;
-    height: 200px;
+    height: 500px;
 }
 .banner-text {
     height: 100px;
+    text-align: center;
 }
 
 .front-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: stretch;
     align-items: flex-start;
 }
 
