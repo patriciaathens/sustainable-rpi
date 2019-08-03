@@ -13,22 +13,21 @@
     background-color: #4B6C20;
 }
 .navbar a {
-    /*display: block; */
+    display: block;
     color: #FAFCF7;   
     text-align: center;
     padding: 20px 22px;
     text-decoration: none;    
     text-align: center;
 }
-.topheader a:hover {
+.navbar a:hover {
     background-color: #CCE6AA;
     color: #4B6C20;
 }
 .hactive {
-    /*
     text-decoration: none;  
     font-family: 'Archivo Narrow', charcoal, sans-serif;
-    font-size: 23px;*/
+    font-size: 23px;
     background-color: #333;
 }
 
