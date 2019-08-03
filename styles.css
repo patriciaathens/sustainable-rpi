@@ -64,6 +64,7 @@ body { margin: 0; }
     flex-direction: row;
     justify-content: stretch;
     align-items: flex-start;
+    background-color: #4B6C20;
 }
 .front-container:after {
     content: "";
@@ -83,7 +84,7 @@ body { margin: 0; }
 
 
 @media screen and (max-width: 700px) {
-    .navbar {   
+    .navbar, .front-container {   
       flex-direction: column;
     }
     .front-column {
