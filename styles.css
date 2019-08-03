@@ -15,6 +15,9 @@
 }
 .navbar a {
     /*display: block;*/
+    text-decoration: none;  
+    font-family: 'Archivo Narrow', charcoal, sans-serif;
+    font-size: 23px;
     color: #FAFCF7;   
     text-align: center;
     padding: 14px 20px;
@@ -26,19 +29,18 @@
     color: #4B6C20;
 }
 .hactive {
-    text-decoration: none;  
-    font-family: 'Archivo Narrow', charcoal, sans-serif;
-    font-size: 23px;
     background-color: #333;
 }
 
 /* header elements */
 h2 {
+    font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 30x;
     color: #FAFCF7;
 }
 
 /* FRONT PAGE ELEMENTS: */
+/* top banner + text */
 .top-banner {
     display: flex;
     justify-content: center;
@@ -53,15 +55,17 @@ h2 {
     text-align: center;
 }
 
+/* subpage descriptions */
 .front-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: stretch;
     align-items: flex-start;
 }
-
 .pastfront, .presentfront, .personalfront {
+    text-align: center;
+    margin: 0;
+    padding: 0;
     background-color: #4B6C20;
 }
 
