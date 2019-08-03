@@ -1,8 +1,14 @@
+/* general page elements */ 
 h5 {
     font-family: Impact, charcoal, sans-serif;
+    font-size: 20px;
     color: #FAFCF7;
 }
 
+
+/* front page elements */
 .header {
     background-color: #4B6C20;
 }
+
+/* subpage elements */
