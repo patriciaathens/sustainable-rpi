@@ -13,20 +13,25 @@ li.hactive, li.hnotactive {
     float: left;
 }
 li a.hactive, li a.hnotactive {
-    display: block;    
+    display: block; 
+    color: #FAFCF7;   
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    color: #FAFCF7;
-    font-family: 'Archivo Narrow', charcoal, sans-serif;
-    font-size: 23px;
+    
 }
 a.hactive:hover, a.hnotactive:hover {
     background-color: #CCE6AA;
 }
 
 .hactive {
+    font-family: 'Archivo Narrow', charcoal, sans-serif;
+    font-size: 23px;
     background-color: #333;
+}
+.hnotactive {
+    font-family: 'Archivo Narrow', charcoal, sans-serif;
+    font-size: 23px;
 }
 
 /* front page elements */
