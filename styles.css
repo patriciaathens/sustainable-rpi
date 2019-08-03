@@ -9,10 +9,10 @@ ul.topheader {
     overflow: hidden;
     background-color: #4B6C20;
   }
-li .sustRPI, .hcurrpg, .hlink{
+li.sustRPI, li.hcurrpg {
     float: left;
 }
-li a .sustRPI, .hcurrpg, .hlink{
+li a.sustRPI, li a.hcurrpg {
     display: block;    
     text-align: center;
     padding: 14px 16px;
@@ -22,7 +22,7 @@ li a .sustRPI, .hcurrpg, .hlink{
     font-size: 23px;
     color: #FAFCF7;
 }
-li a:hover .sustRPI, .hcurrpg, .hlink{
+li a.sustRPI:hover, li a.hcurrpg:hover{
     background-color: #CCE6AA;
 }
 
