@@ -17,9 +17,6 @@ li a.hactive, li a.hnotactive {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-
-    font-family: 'Archivo Narrow', charcoal, sans-serif;
-    font-size: 23px;
     color: #FAFCF7;
 }
 li a.hactive:hover, li a.hnotactive:hover{
