@@ -2,6 +2,27 @@
 
 /* GENERAL PAGE ELEMENTS */ 
 /* header elements */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4B6C20;
+  }
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #CCE6AA;
+}
+
 ul.sustRPI {
     font-family: 'Archivo Black', charcoal, sans-serif;
     font-size: 25px;
@@ -16,15 +37,8 @@ ul.hcurrpg {
     font-family: 'Archivo Black', charcoal, sans-serif;
     font-size: 23px;
     color: #FAFCF7;
+    background-color: #333;
 }
-
-header {
-    background-color: #4B6C20;
-    padding: 0px, 0px, 0px, 0px;
-    margin: 0px, 0px, 0px, 0px;
-    width: 100%;
-}
-
 
 /* front page elements */
 
