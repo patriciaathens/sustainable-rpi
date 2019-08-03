@@ -13,30 +13,23 @@ li .sustRPI, .hcurrpg, .hlink{
     float: left;
 }
 li a .sustRPI, .hcurrpg, .hlink{
-    display: block;
-    color: white;
+    display: block;    
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
+    font-family: 'Archivo Narrow', charcoal, sans-serif;
+    font-size: 23px;
+    color: #FAFCF7;
 }
 li a:hover .sustRPI, .hcurrpg, .hlink{
     background-color: #CCE6AA;
 }
 
 .sustRPI {
-    font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 25px;
-    color: #FAFCF7;
-}
-.hlink {
-    font-family: 'Archivo Narrow', charcoal, sans-serif;
-    font-size: 23px;
-    color: #FAFCF7;
 }
 .hcurrpg {
-    font-family: 'Archivo Narrow', charcoal, sans-serif;
-    font-size: 23px;
-    color: #FAFCF7;
     background-color: #333;
 }
 
