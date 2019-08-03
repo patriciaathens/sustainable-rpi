@@ -48,6 +48,7 @@ h2 {
     margin: 0;
     padding: 0;
     background: url('images/frontimage.png') no-repeat fixed center center;
+    background-size: contain;
     height: 500px;
 }
 .banner-text {
@@ -62,10 +63,17 @@ h2 {
     justify-content: stretch;
     align-items: flex-start;
 }
-.pastfront, .presentfront, .personalfront {
+.front-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.front-column {
+    float: left;
+    width: 33.33%;
     text-align: center;
     margin: 0;
-    padding: 0;
+    padding: 15px;
     background-color: #4B6C20;
 }
 
@@ -75,5 +83,8 @@ h2 {
 @media screen and (max-width: 700px) {
     .navbar {   
       flex-direction: column;
+    }
+    .front-column {
+        width: 100%;
     }
   }
