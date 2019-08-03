@@ -16,9 +16,8 @@ li a.hactive, li a.hnotactive {
     display: block; 
     color: #FAFCF7;   
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    
+    padding: 20px 22px;
+    text-decoration: none;    
 }
 a.hactive:hover, a.hnotactive:hover {
     background-color: #CCE6AA;
