@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
 
-/* GENERAL PAGE ELEMENTS */ 
-/* header elements */
+/* GENERAL PAGE ELEMENTS: */ 
+/* general header */
 ul.topheader {
     list-style-type: none;
     margin: 0;
@@ -22,22 +22,27 @@ li a.hactive, li a.hnotactive {
 a.hactive:hover, a.hnotactive:hover {
     background-color: #CCE6AA;
 }
-
 .hactive {
+    /*
     text-decoration: none;  
     font-family: 'Archivo Narrow', charcoal, sans-serif;
-    font-size: 23px;
+    font-size: 23px;*/
     background-color: #333;
 }
-.hnotactive {
-    text-decoration: none;  
-    font-family: 'Archivo Narrow', charcoal, sans-serif;
-    font-size: 23px;
+
+/* header elements */
+h2 {
+    font-size: 30x;
+    color: #FAFCF7;
 }
 
-/* front page elements */
+/* FRONT PAGE ELEMENTS: */
 .topbanner {
     background: url('/images/frontimage.png') no-repeat fixed center center;
 }
 
-/* subpage elements */
+.pastfront, .presentfront, .personalfront {
+    background-color: #4B6C20;
+}
+
+/* SUBPAGE ELEMENTS: */
