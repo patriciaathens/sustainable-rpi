@@ -1,40 +1,40 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
 
 /* GENERAL PAGE ELEMENTS */ 
 /* header elements */
-ul {
+ul.topheader {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #4B6C20;
   }
-li {
+li{
     float: left;
 }
-li a {
+li a .sustRPI, .hcurrpg, .hlink{
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover {
+li a:hover .sustRPI, .hcurrpg, .hlink{
     background-color: #CCE6AA;
 }
 
 .sustRPI {
-    font-family: 'Archivo Black', charcoal, sans-serif;
+    font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 25px;
     color: #FAFCF7;
 }
 .hlink {
-    font-family: 'Archivo Black', charcoal, sans-serif;
+    font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 23px;
     color: #CCE6AA;
 }
 .hcurrpg {
-    font-family: 'Archivo Black', charcoal, sans-serif;
+    font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 23px;
     color: #FAFCF7;
     background-color: #333;
