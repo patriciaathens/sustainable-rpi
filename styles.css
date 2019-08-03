@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
 
 /* GENERAL PAGE ELEMENTS: */ 
 * {
@@ -33,10 +34,25 @@
 }
 
 /* header elements */
+h1 {
+    font-family: 'Archivo Black', charcoal, sans-serif;
+    font-size: 50x;
+    color: #333;
+}
 h2 {
     font-family: 'Archivo Narrow', charcoal, sans-serif;
-    font-size: 30x;
+    font-size: 35x;
     color: #FAFCF7;
+}
+h4 {
+    font-family: 'Archivo Narrow', charcoal, sans-serif;
+    font-size: 30x;
+    color: #333;
+}
+p.darkback {
+    font-family: 'Archivo Narrow', charcoal, sans-serif;
+    font-size: 20x;
+    color: #CCE6AA;
 }
 
 body { margin: 0; }
@@ -54,11 +70,12 @@ body { margin: 0; }
     height: 500px;
 }
 .banner-text {
-    font-family: 'Archivo Narrow', charcoal, sans-serif;
-    font-size: 40px;
     color: #333;
     height: 100px;
     text-align: center;
+}
+.banner-subtext {
+    width: 300px;
 }
 
 /* subpage descriptions */
