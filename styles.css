@@ -1,26 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
 
 /* GENERAL PAGE ELEMENTS: */ 
+* {
+    box-sizing: border-box;
+}
 /* general header */
-ul.topheader {
+.navbar{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #4B6C20;
 }
-li {
-    float: left;
-}
-li a {
-    display: block; 
+.navbar a {
+    /*display: block; */
     color: #FAFCF7;   
     text-align: center;
     padding: 20px 22px;
     text-decoration: none;    
+    text-align: center;
 }
-a:hover {
+.topheader a:hover {
     background-color: #CCE6AA;
+    color: #4B6C20;
 }
 .hactive {
     /*
@@ -64,3 +66,10 @@ h2 {
 }
 
 /* SUBPAGE ELEMENTS: */
+
+
+@media screen and (max-width: 700px) {
+    .navbar {   
+      flex-direction: column;
+    }
+  }
