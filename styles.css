@@ -9,17 +9,17 @@ ul.topheader {
     overflow: hidden;
     background-color: #4B6C20;
 }
-li.hactive, li.hnotactive {
+li {
     float: left;
 }
-li a.hactive, li a.hnotactive {
+li a {
     display: block; 
     color: #FAFCF7;   
     text-align: center;
     padding: 20px 22px;
     text-decoration: none;    
 }
-a.hactive:hover, a.hnotactive:hover {
+a:hover {
     background-color: #CCE6AA;
 }
 .hactive {
@@ -38,7 +38,15 @@ h2 {
 
 /* FRONT PAGE ELEMENTS: */
 .topbanner {
-    background: url('/images/frontimage.png') no-repeat fixed center center;
+    background: url('images/frontimage.png') no-repeat fixed center center;
+}
+
+.front-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .pastfront, .presentfront, .personalfront {
