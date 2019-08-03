@@ -9,7 +9,7 @@ ul.topheader {
     overflow: hidden;
     background-color: #4B6C20;
   }
-li{
+li .sustRPI, .hcurrpg, .hlink{
     float: left;
 }
 li a .sustRPI, .hcurrpg, .hlink{
@@ -31,7 +31,7 @@ li a:hover .sustRPI, .hcurrpg, .hlink{
 .hlink {
     font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 23px;
-    color: #CCE6AA;
+    color: #FAFCF7;
 }
 .hcurrpg {
     font-family: 'Archivo Narrow', charcoal, sans-serif;
