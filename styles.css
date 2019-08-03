@@ -54,6 +54,9 @@ body { margin: 0; }
     height: 500px;
 }
 .banner-text {
+    font-family: 'Archivo Narrow', charcoal, sans-serif;
+    font-size: 40px;
+    color: #333;
     height: 100px;
     text-align: center;
 }
