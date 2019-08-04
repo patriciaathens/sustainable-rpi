@@ -88,11 +88,13 @@ body { margin: 0; }
     height: 500px;
 }
 .banner-text {
+    margin: auto;
     text-align: center;
     height: 120px;
     margin: 10px;
 }
 .banner-subtext {
+    margin: auto;
     justify-content: center;
     text-align: center;
     width: 500px;
@@ -130,7 +132,7 @@ body { margin: 0; }
     padding: 0;
     background: url('images/subpageimage.png') no-repeat fixed center center;
     background-size: cover;
-    height: 350px;
+    height: 375px;
 }
 
 /* subtopic bar */
@@ -142,7 +144,7 @@ body { margin: 0; }
     justify-content: center;
     align-content: center;
     list-style-type: none;
-    margin: 10px;
+    margin: auto;
     padding: 0;
     overflow: hidden;
     background-color: #B1A084;
