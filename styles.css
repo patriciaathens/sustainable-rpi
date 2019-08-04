@@ -86,7 +86,7 @@ body { margin: 0; }
 .banner-text {
     margin: auto;
     text-align: center;
-    height: 110px;
+    height: 200px;
 }
 .banner-subtext {
     margin: auto;
@@ -144,7 +144,7 @@ body { margin: 0; }
     overflow: hidden;
     background-color: #B1A084;
     text-align: center;
-    height: 110px;
+    height: 75px;
     width: 500px;
     opacity: 0.8;
 }
@@ -184,6 +184,11 @@ body { margin: 0; }
     margin: 20px;
     text-align: center;
     opacity: 0.80;
+}
+
+.text1 {
+    height: 1000px;
+    background-color: #CCE6AA;
 }
 
 @media screen and (max-width: 700px) {
