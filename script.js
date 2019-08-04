@@ -1,6 +1,5 @@
 <script src="timesheet.js" type="text/javascript" />
 
-
 new Timesheet('timesheet', 2005, 2015, [
     ['07/2005', '09/20', 'A freaking awesome time', 'lorem'],
     ['06/2002', '09/2003', 'Some great memories', 'ipsum'],
