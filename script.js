@@ -1,4 +1,4 @@
-<script src="/javascripts/timesheet.js" type="text/javascript" />
+<script src="timesheet.js" type="text/javascript" />
 
 
 new Timesheet('timesheet', 2005, 2015, [
