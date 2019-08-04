@@ -74,6 +74,9 @@ body { margin: 0; }
     height: 100px;
     text-align: center;
 }
+.banner-subtext {
+    width: 500px;
+}
 
 /* subpage descriptions */
 .front-container {
