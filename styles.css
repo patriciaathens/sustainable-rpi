@@ -42,13 +42,13 @@ h1 {
 }
 h2 {
     font-family: 'Archivo Black', charcoal, sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     color: #333;
     text-align: center;
 }
 h3 {
     font-family: 'Archivo Narrow', charcoal, sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     color: #FAFCF7;
 }
 
@@ -81,7 +81,10 @@ body { margin: 0; }
 }
 .banner-text {
     text-align: center;
-    height: 100px;
+    height: 120px;
+}
+.banner-subtext {
+    width: 500px;
 }
 
 /* subpage descriptions */
@@ -114,8 +117,9 @@ body { margin: 0; }
     align-content: flex-start;
     margin: 0;
     padding: 0;
-    background-color: #FAFCF7;
-    height: 300px;
+    background: url('images/subpageimage.png') no-repeat fixed center center;
+    background-size: cover;
+    height: 350px;
 }
 
 /* subtopic bar */
@@ -149,7 +153,7 @@ body { margin: 0; }
 
 
 @media screen and (max-width: 700px) {
-    .navbar, .front-container {   
+    .navbar, .front-container, .top-banner, .subpage-top {   
       flex-direction: column;
     }
     .front-column {
