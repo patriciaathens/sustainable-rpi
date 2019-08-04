@@ -81,7 +81,7 @@ body { margin: 0; }
 }
 .banner-text {
     text-align: center;
-    height: 200px;
+    height: 100px;
 }
 
 /* subpage descriptions */
@@ -102,7 +102,7 @@ body { margin: 0; }
     width: 33.33%;
     text-align: center;
     margin: 0;
-    padding: 15px;
+    padding: 5px;
     background-color: #4B6C20;
 }
 
