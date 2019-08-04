@@ -86,13 +86,11 @@ body { margin: 0; }
 .banner-text {
     margin: auto;
     text-align: center;
-    height: 200px;
 }
 .banner-subtext {
     margin: auto;
     justify-content: center;
     text-align: center;
-    height: 150px;
     width: 500px;
 }
 
