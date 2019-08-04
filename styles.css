@@ -62,6 +62,7 @@ body { margin: 0; }
 /* top banner + text */
 .top-banner {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: flex-start;
     margin: 0;
@@ -99,6 +100,19 @@ body { margin: 0; }
 }
 
 /* SUBPAGE ELEMENTS: */
+.subpage-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    margin: 0;
+    padding: 0;
+    background-color: #FAFCF7;
+    /*background: url('images/frontimage.png') no-repeat fixed center center;*/
+    background-size: cover;
+    height: 300px;
+}
+
 /* subtopic bar */
 .skipto {
     position: -webkit-sticky; /* Safari */
