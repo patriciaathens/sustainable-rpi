@@ -84,14 +84,15 @@ body { margin: 0; }
     height: 500px;
 }
 .banner-text {
-    margin: 10px, auto;
+    margin: auto;
     text-align: center;
     height: 110px;
 }
 .banner-subtext {
-    margin: 10px, auto;
+    margin: auto;
     justify-content: center;
     text-align: center;
+    height: 150px;
     width: 500px;
 }
 
@@ -138,11 +139,12 @@ body { margin: 0; }
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 10px, auto;
+    margin: auto;
     padding: 0;
     overflow: hidden;
     background-color: #B1A084;
     text-align: center;
+    height: 110px;
     width: 500px;
     opacity: 0.8;
 }
