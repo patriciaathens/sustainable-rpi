@@ -129,12 +129,13 @@ body { margin: 0; }
     position: sticky;
     top: 0;
     display: flex;
+    justify-content: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #B1A084;
-    text-align:center;
+    text-align: center;
 }
 .skipto a, .skip {
     display: inline;
