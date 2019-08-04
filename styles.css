@@ -41,7 +41,7 @@ h1 {
     text-align: center;
 }
 h2 {
-    font-family: 'Archivo Black', charcoal, sans-serif;
+    font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 30px;
     color: #333;
     text-align: center;
@@ -84,6 +84,7 @@ body { margin: 0; }
     height: 120px;
 }
 .banner-subtext {
+    text-align: center;
     width: 500px;
 }
 
@@ -135,7 +136,7 @@ body { margin: 0; }
     background-color: #B1A084;
     text-align:center;
 }
-.skipto a {
+.skipto a, .skip {
     display: inline;
     text-decoration: none;  
     font-family: 'Archivo Narrow', charcoal, sans-serif;
