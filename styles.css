@@ -134,12 +134,14 @@ body { margin: 0; }
     top: 0;
     display: flex;
     justify-content: center;
+    align-content: center;
     list-style-type: none;
-    margin: 0;
+    margin: 10px;
     padding: 0;
     overflow: hidden;
     background-color: #B1A084;
     text-align: center;
+    width: 500px;
 }
 .skipto a, .skip {
     display: inline;
@@ -148,9 +150,8 @@ body { margin: 0; }
     font-size: 20px;
     color: #333;   
     text-align: center;
-    padding: 14px 18px;
-    text-decoration: none;    
-    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
 }
 .skipto a:hover {
     background-color: #876654;
