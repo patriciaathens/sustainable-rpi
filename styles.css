@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black');
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed');
 
 /* GENERAL PAGE ELEMENTS: */ 
 * {
@@ -42,7 +43,7 @@ h1 {
     text-align: center;
 }
 h2 {
-    font-family: 'Archivo Narrow', charcoal, sans-serif;
+    font-family: 'Fira Sans Condensed', charcoal, sans-serif;
     font-size: 30px;
     color: #333;
     text-align: center;
@@ -83,8 +84,10 @@ body { margin: 0; }
 .banner-text {
     text-align: center;
     height: 120px;
+    margin: 10px;
 }
 .banner-subtext {
+    justify-content: center;
     text-align: center;
     width: 500px;
 }
