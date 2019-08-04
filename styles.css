@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 
 /* GENERAL PAGE ELEMENTS: */ 
 * {
@@ -35,7 +36,7 @@
 
 /* header elements */
 h1 {
-    font-family: 'Archivo Black', charcoal, sans-serif;
+    font-family: 'Fjalla One', charcoal, sans-serif;
     font-size: 80px;
     color: #333;
     text-align: center;
