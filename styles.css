@@ -36,13 +36,13 @@
 /* header elements */
 h1 {
     font-family: 'Archivo Black', charcoal, sans-serif;
-    font-size: 90px;
+    font-size: 80px;
     color: #333;
     text-align: center;
 }
 h2 {
-    font-family: 'Archivo Narrow', charcoal, sans-serif;
-    font-size: 50px;
+    font-family: 'Archivo Black', charcoal, sans-serif;
+    font-size: 40px;
     color: #333;
     text-align: center;
 }
