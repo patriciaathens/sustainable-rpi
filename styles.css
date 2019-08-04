@@ -36,7 +36,7 @@
 /* header elements */
 h1 {
     font-family: 'Archivo Black', charcoal, sans-serif;
-    font-size: 50x;
+    font-size: 60x;
     color: #333;
 }
 h2 {
@@ -71,11 +71,8 @@ body { margin: 0; }
 }
 .banner-text {
     color: #333;
-    height: 100px;
+    height: 300px;
     text-align: center;
-}
-.banner-subtext {
-    width: 500px;
 }
 
 /* subpage descriptions */
@@ -101,6 +98,29 @@ body { margin: 0; }
 }
 
 /* SUBPAGE ELEMENTS: */
+/* subtopic bar */
+.skipto {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B1A084;
+}
+.skipto a {
+    text-decoration: none;  
+    font-family: 'Archivo Narrow', charcoal, sans-serif;
+    font-size: 20px;
+    color: #333;   
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;    
+    text-align: center;
+}
+.skipto a:hover {
+    background-color: #876654;
+    color: #FAFCF7;
+}
 
 
 @media screen and (max-width: 700px) {
