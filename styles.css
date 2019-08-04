@@ -38,6 +38,7 @@ h1 {
     font-family: 'Archivo Black', charcoal, sans-serif;
     font-size: 60x;
     color: #333;
+    text-align: center;
 }
 h2 {
     font-family: 'Archivo Narrow', charcoal, sans-serif;
@@ -100,14 +101,19 @@ body { margin: 0; }
 /* SUBPAGE ELEMENTS: */
 /* subtopic bar */
 .skipto {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #B1A084;
+    text-align:center;
 }
 .skipto a {
+    display: inline;
     text-decoration: none;  
     font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 20px;
