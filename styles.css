@@ -84,13 +84,12 @@ body { margin: 0; }
     height: 500px;
 }
 .banner-text {
-    margin: auto;
+    margin: 10px, auto;
     text-align: center;
-    height: 120px;
-    margin: 10px;
+    height: 110px;
 }
 .banner-subtext {
-    margin: auto;
+    margin: 10px, auto;
     justify-content: center;
     text-align: center;
     width: 500px;
@@ -139,7 +138,7 @@ body { margin: 0; }
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: auto;
+    margin: 10px, auto;
     padding: 0;
     overflow: hidden;
     background-color: #B1A084;
@@ -170,6 +169,7 @@ body { margin: 0; }
     justify-content: stretch;
     align-items: flex-start;
     background-color: #FAFCF7;
+    height: 300px;
 }
 .personal-container:after {
     content: "";
@@ -181,7 +181,7 @@ body { margin: 0; }
     width: 30%;
     margin: 20px;
     text-align: center;
-    opacity: 0.65;
+    opacity: 0.80;
 }
 
 @media screen and (max-width: 700px) {
