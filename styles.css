@@ -36,20 +36,22 @@
 /* header elements */
 h1 {
     font-family: 'Archivo Black', charcoal, sans-serif;
-    font-size: 60x;
+    font-size: 100x;
     color: #333;
     text-align: center;
 }
 h2 {
     font-family: 'Archivo Narrow', charcoal, sans-serif;
+    font-size: 50x;
+    color: #333;
+    text-align: center;
+}
+h3 {
+    font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 35x;
     color: #FAFCF7;
 }
-h4 {
-    font-family: 'Archivo Narrow', charcoal, sans-serif;
-    font-size: 30x;
-    color: #333;
-}
+
 p.darkback {
     font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 20x;
@@ -108,7 +110,6 @@ body { margin: 0; }
     margin: 0;
     padding: 0;
     background-color: #FAFCF7;
-    /*background: url('images/frontimage.png') no-repeat fixed center center;*/
     background-size: cover;
     height: 300px;
 }
