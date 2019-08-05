@@ -47,6 +47,7 @@ h2 {
     font-family: 'Fira Sans Condensed', charcoal, sans-serif;
     font-size: 30px;
     color: #333;
+    margin: 10px;
 }
 h3 {
     font-family: 'Archivo Narrow', charcoal, sans-serif;
@@ -56,13 +57,14 @@ h3 {
 
 h5 {
     font-family: 'Archivo Narrow', charcoal, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: #CCE6AA; 
 }
 h5.dark {
     font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 30px;
     color: #333; 
+    margin: 10px;
 }
 
 
@@ -89,11 +91,11 @@ body { margin: 0; }
     height: 500px;
 }
 .banner-text {
-    margin: auto;
+    margin: 10px auto;
     text-align: center;
 }
 .banner-subtext {
-    margin: auto;
+    margin: 10px auto;
     justify-content: center;
     text-align: center;
     width: 500px;
