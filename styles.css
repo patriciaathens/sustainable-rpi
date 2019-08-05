@@ -66,6 +66,13 @@ h5.dark {
     color: #333; 
     margin: 10px;
 }
+h6 {
+    font-family: 'Archivo Narrow', charcoal, sans-serif;
+    font-size: 20px;
+    color: #333;   
+    text-align: center;
+    padding: 14px 16px;
+}
 
 
 p.darkback {
