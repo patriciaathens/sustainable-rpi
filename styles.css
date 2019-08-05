@@ -62,16 +62,18 @@ h5 {
 }
 h5.dark {
     font-family: 'Archivo Narrow', charcoal, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: #333; 
-    margin: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 h6 {
     font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 20px;
     color: #333;   
     text-align: center;
-    padding: 14px 16px;
+    margin: 0;
+    padding: 16px;
 }
 
 
@@ -160,7 +162,7 @@ body { margin: 0; }
     width: 100%;
     z-index: 2;
 }
-.skipto a, .skip {
+.skipto a {
     display: inline;
     text-decoration: none;  
     font-family: 'Archivo Narrow', charcoal, sans-serif;
@@ -292,7 +294,7 @@ li:hover .description {
 .event {
     color: #4B6C20;
     font-family: 'Archivo Narrow', charcoal, sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     transition: transform .2s; /* Animation */
     margin: 2px 2px;
 }
@@ -307,7 +309,7 @@ li:hover .description {
     background-color: #CCE6AA;
     position: relative;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 /* The actual timeline (the vertical ruler) */
