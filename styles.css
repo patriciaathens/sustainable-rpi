@@ -54,6 +54,11 @@ h3 {
     font-size: 45px;
     color: #FAFCF7;
 }
+h3.darkbrown {
+    font-family: 'Archivo Narrow', charcoal, sans-serif;
+    font-size: 45px;
+    color: #876654;
+}
 
 h5 {
     font-family: 'Archivo Narrow', charcoal, sans-serif;
@@ -153,13 +158,12 @@ body { margin: 0; }
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 10px;
+    margin: 10px auto;
     padding: 0;
     overflow: hidden;
     background-color: #B1A084;
     text-align: center;
-    height: 70px;
-    width: 100%;
+    height: 60px;
     z-index: 2;
 }
 .skipto a {
@@ -308,8 +312,7 @@ li:hover .description {
 .v-timeline {
     background-color: #CCE6AA;
     position: relative;
-    max-width: 1200px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 /* The actual timeline (the vertical ruler) */
