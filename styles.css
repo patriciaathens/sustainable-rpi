@@ -144,7 +144,7 @@ body { margin: 0; }
     text-align: center;
     height: 70px;
     width: 100%;
-    z-index:-1;
+    z-index: 2;
 }
 .skipto a, .skip {
     display: inline;
@@ -280,10 +280,11 @@ li:hover .description {
     font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 22px;
     transition: transform .2s; /* Animation */
+    margin: 2px 2px;
 }
 .event:hover {
     color: #4B6C20;
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
 
 
@@ -315,6 +316,7 @@ li:hover .description {
     position: relative;
     background-color: inherit;
     width: 100%;
+    margin: 0;
 }
 
 /* The circles on the timeline */
@@ -325,14 +327,14 @@ li:hover .description {
     height: 25px;
     right: -17px;
     background-color: white;
-    border: 4px solid #FF9F55;
+    border: 4px solid #876654;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
 }
 
 /* Place the container to the left or right*/
-.container { left: 0%; }
+.container { left: 0; }
 .container::after { left: 15px; }
 
 /* Add arrows to the right container (pointing left) */
@@ -344,15 +346,15 @@ li:hover .description {
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid white;
+    border: medium solid #FAFCF7;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent #FAFCF7 transparent transparent;
 }
 
 /* The actual content */
 .content {
     padding: 20px 30px;
-    background-color: white;
+    background-color: #FAFCF7;
     position: relative;
     border-radius: 6px;
 }
