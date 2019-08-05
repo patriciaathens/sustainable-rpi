@@ -229,6 +229,8 @@ li .yearpoint {
     top: -47px;
     left: 36%;
     color: #333;
+    font-family: 'Fira Sans Condensed', charcoal, sans-serif;
+    font-size: 18px;
 }
 li .point {
 	content: "";
@@ -239,7 +241,7 @@ li .point {
 	height: 6px;
 	border: 4px solid #4B6C20;
 	border-radius: 10px;
-	background: #B1A084;
+	background: #333;
     position: absolute;
 }
 li .description {
@@ -274,11 +276,12 @@ li:hover .description {
 }
 .event {
     color: #4B6C20;
+    font-family: 'Archivo Narrow', charcoal, sans-serif;
+    font-size: 22px;
     transition: transform .2s; /* Animation */
 }
 .event:hover {
-    color: #333;
-    
+    color: #4B6C20;
     transform: scale(1.2);
 }
 
