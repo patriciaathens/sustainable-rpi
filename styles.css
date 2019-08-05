@@ -285,14 +285,14 @@ li:hover .description {
     transform: scale(1.2);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     .navbar, .front-container, .top-banner, .subpage-top, .personal-container {   
       flex-direction: column;
     }
     .front-column, .personal-container > div {
         width: 100%;
     }
-    .h-timeline {
+    ol.h-timeline * {
         display: none;
     }
   }
