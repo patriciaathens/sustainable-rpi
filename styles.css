@@ -47,7 +47,7 @@ h2 {
     font-family: 'Fira Sans Condensed', charcoal, sans-serif;
     font-size: 30px;
     color: #333;
-    margin: 10px;
+    margin: 0 10px;
 }
 h3 {
     font-family: 'Archivo Narrow', charcoal, sans-serif;
@@ -58,6 +58,7 @@ h3.darkbrown {
     font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 45px;
     color: #876654;
+    margin-left: 20px;
 }
 
 h5 {
@@ -163,7 +164,7 @@ body { margin: 0; }
     overflow: hidden;
     background-color: #B1A084;
     text-align: center;
-    height: 60px;
+    height: 55px;
     z-index: 2;
 }
 .skipto a {
