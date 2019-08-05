@@ -272,6 +272,15 @@ li:hover {
 li:hover .description {
     display: block;
 }
+.event {
+    color: #CCE6AA;
+    transition: transform .2s; /* Animation */
+}
+.event:hover {
+    color: #333;
+    
+    transform: scale(1.5);
+}
 
 @media screen and (max-width: 700px) {
     .navbar, .front-container, .top-banner, .subpage-top, .personal-container {   
