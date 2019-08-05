@@ -47,7 +47,6 @@ h2 {
     font-family: 'Fira Sans Condensed', charcoal, sans-serif;
     font-size: 30px;
     color: #333;
-    text-align: center;
 }
 h3 {
     font-family: 'Archivo Narrow', charcoal, sans-serif;
@@ -60,6 +59,11 @@ h5 {
     font-size: 30px;
     color: #CCE6AA; 
 }
+h5.dark {
+    font-family: 'Archivo Narrow', charcoal, sans-serif;
+    font-size: 30px;
+    color: #333; 
+}
 
 
 p.darkback {
@@ -68,6 +72,7 @@ p.darkback {
     color: #CCE6AA;
 }
 
+#centered { text-align: center; }
 body { margin: 0; }
 
 /* FRONT PAGE ELEMENTS: */
