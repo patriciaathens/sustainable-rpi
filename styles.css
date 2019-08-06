@@ -218,8 +218,8 @@ body { margin: 0; }
     opacity: 0.80;
 }
 
-.lightback { background-color: #CCE6AA; }
-.greenback { background-color: #FAFCF7; }
+.lightback { background-color: #CCE6AA; margin: 0px auto; }
+.greenback { background-color: #FAFCF7; margin: 0px auto; }
 
 /* HORIZONTAL TIMELINE: */
 ol.h-timeline {
