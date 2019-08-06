@@ -101,6 +101,10 @@ p.light {
 
 #centered { text-align: center; }
 #italic { font-style: italic; }
+#toplink {    
+    font-size: 18px;
+    color: #333; 
+}
 body { margin: 0; }
 
 /* FRONT PAGE ELEMENTS: */
@@ -396,10 +400,9 @@ li:hover .description {
         width: 100%;
     }
 
-    ol.h-timeline * , .description, .event{
+    ol.h-timeline, ol.h-timeline * , .description, .event{
         display: none;
     }
 
-
-  }
+}
 
