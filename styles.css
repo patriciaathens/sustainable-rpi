@@ -64,8 +64,8 @@ h3.darkbrown {  /* subtopic titles */
 h4 {            /* sub-subtopic titles */
     font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 20px;
-    color: #4B6C20; 
-    margin-left: 20px;
+    color: #4B6C20;
+    margin: 10px, 20px, 20px;
 }
 h5 {            /* top-page descriptions */
     font-family: 'Archivo Narrow', charcoal, sans-serif;
@@ -96,6 +96,7 @@ p {
     margin-left: 20px;    
 }
 p.dark { color: #4B6C20; }
+p.grey { color: #7E7A75; }
 p.light { color: #CCE6AA; }
 
 #centered { text-align: center; }
@@ -233,14 +234,13 @@ body { margin: 0;}
     text-decoration: none;  
     font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 16px;
-    color: #CAB492;   
+    color: #B1A084;   
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;    
     text-align: center;
 }
 .links a:hover {
-    background-color: #CCE6AA;
     color: #876654;
 }
 
