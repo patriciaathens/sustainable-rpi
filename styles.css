@@ -63,14 +63,14 @@ h3.darkbrown {  /* subtopic titles */
 }
 h4 {            /* sub-subtopic titles */
     font-family: 'Archivo Narrow', charcoal, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: #4B6C20;
-    margin: 10px, 20px, 20px;
+    margin-left: 20px;
 }
-h5 {            /* top-page descriptions */
+h5 {            /* top-page descriptions + sub title italics*/
     font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 20px;
-    margin-left: 20px;
+    margin: 10px, 20px, 20px;
     color: #92B465; 
 }
 h5.dark {
@@ -96,7 +96,7 @@ p {
     margin-left: 20px;    
 }
 p.dark { color: #4B6C20; }
-p.grey { color: #7E7A75; }
+p.grey { color: #333; }
 p.light { color: #CCE6AA; }
 
 #centered { text-align: center; }
