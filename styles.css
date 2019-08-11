@@ -70,7 +70,9 @@ h4 {            /* sub-subtopic titles */
 h5 {            /* top-page descriptions + sub title italics*/
     font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 20px;
-    margin: 10px, 20px, 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     color: #92B465; 
 }
 h5.dark {
