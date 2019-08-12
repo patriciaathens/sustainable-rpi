@@ -110,6 +110,10 @@ p.light { color: #CCE6AA; }
 body { margin: 0;}
 .lightback { background-color: #CCE6AA; margin: 0px auto; }
 .greenback { background-color: #FAFCF7; margin: 0px auto; }
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 /* FRONT PAGE ELEMENTS: */
 /* top banner + text */
