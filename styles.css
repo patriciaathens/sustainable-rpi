@@ -104,7 +104,8 @@ p.light { color: #CCE6AA; }
 #centered { text-align: center; }
 #italic { font-style: italic; }
 #toplink {    
-    font-size: 15px;
+    font-size: 18px;
+    padding: 10px;
     color: #333; 
 }
 body { margin: 0;}
@@ -328,7 +329,7 @@ img {
         width: 100%;
     }
 
-    .description, .event{
+    .description, .event, iframe {
         display: none;
     }
 
