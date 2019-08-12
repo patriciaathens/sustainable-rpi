@@ -110,8 +110,8 @@ p.light { color: #CCE6AA; padding: 10px; }
     color: #333; 
 }
 body { margin: 0 auto;}
-.lightback { background-color: #CCE6AA; margin: 0px auto; padding-top: 18px; }
-.greenback { background-color: #FAFCF7; margin: 0px auto; padding-top: 18px; }
+.lightback { background-color: #CCE6AA; margin: 0px auto; padding-top: 16px; padding-bottom: 16px;}
+.greenback { background-color: #FAFCF7; margin: 0px auto; padding-top: 16px; padding-bottom: 16px;}
 img {
     max-width: 100%;
     height: auto;
@@ -125,7 +125,7 @@ img {
     justify-content: center;
     align-content: flex-start;
     margin: 0;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     background: url('images/frontimage.png') no-repeat fixed center center;
     background-size: cover;
     height: 500px;
