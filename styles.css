@@ -95,8 +95,8 @@ p {
     font-size: 20px;
     margin-left: 20px;    
 }
-p.dark { color: #4B6C20; padding: 10px; }
-p.grey { color: #333; padding: 10px; }
+p.dark { color: #4B6C20; }
+p.grey { color: #333; }
 p.light { color: #CCE6AA; padding: 10px; }
 
 #centered { text-align: center; }
