@@ -71,7 +71,6 @@ h5 {            /* top-page descriptions + sub title italics*/
     font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 20px;
     margin-left: 20px;
-    margin-top: 5px;
     margin-bottom: 10px;
     color: #92B465; 
 }
@@ -108,7 +107,7 @@ p.light { color: #CCE6AA; }
     padding: 10px;
     color: #333; 
 }
-body { padding-top: 30px; margin: 0;}
+body { margin: 0;}
 .lightback { background-color: #CCE6AA; margin: 0px auto; }
 .greenback { background-color: #FAFCF7; margin: 0px auto; }
 img {
