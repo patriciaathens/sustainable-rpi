@@ -107,8 +107,8 @@ p.light { color: #CCE6AA; padding: 10px; }
     color: #333; 
 }
 body { margin: 0 auto;}
-.lightback { background-color: #CCE6AA; margin: 0px auto; padding-top: 30px; }
-.greenback { background-color: #FAFCF7; margin: 0px auto; padding-top: 30px; }
+.lightback { background-color: #CCE6AA; margin: 0px auto; padding-top: 18px; }
+.greenback { background-color: #FAFCF7; margin: 0px auto; padding-top: 18px; }
 img {
     max-width: 100%;
     height: auto;
