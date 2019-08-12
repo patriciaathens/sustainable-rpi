@@ -107,7 +107,7 @@ p.light { color: #CCE6AA; }
     padding: 10px;
     color: #333; 
 }
-body { margin: 0;}
+body { margin: 0 auto;}
 .lightback { background-color: #CCE6AA; margin: 0px auto; }
 .greenback { background-color: #FAFCF7; margin: 0px auto; }
 img {
