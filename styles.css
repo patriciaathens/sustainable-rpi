@@ -125,7 +125,7 @@ img {
     justify-content: center;
     align-content: flex-start;
     margin: 0;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     background: url('images/frontimage.png') no-repeat fixed center center;
     background-size: cover;
     height: 500px;
