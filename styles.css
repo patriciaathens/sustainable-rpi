@@ -125,6 +125,11 @@ i.fas, i.fab {
 #icon {
     color: #CCE6AA;
     padding: 10px 10px;
+    transition: all .2s ease-in-out;
+}
+#icon:hover {
+    color: #92B465;
+    transform: scale(1.1);
 }
 
 /* FRONT PAGE ELEMENTS: */
