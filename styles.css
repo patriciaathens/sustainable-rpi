@@ -99,7 +99,7 @@ p {
 }
 p.dark { color: #4B6C20; }
 p.grey { color: #333; }
-p.light { color: ; padding: 10px; }
+p.light { color: #CCE6AA; padding: 10px; }
 
 #centered { text-align: center; }
 #italic { font-style: italic; }
