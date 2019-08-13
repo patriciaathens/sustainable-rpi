@@ -61,18 +61,18 @@ h3.darkbrown {  /* subtopic titles */
     font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 40px;
     color: #876654;
-    margin: 0px, 30px;
+    margin: 0px 30px;
 }
 h4 {            /* sub-subtopic titles */
     font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 30px;
     color: #4B6C20;
-    margin: 0px, 30px;
+    margin: 0px 30px;
 }
 h5 {            /* top-page descriptions + sub title italics*/
     font-family: 'Fira Sans Condensed', charcoal, sans-serif;
     font-size: 20px;
-    margin: 0px, 30px, 10px;
+    margin: 0px 30px 10px;
     color: #92B465; 
 }
 h5.dark {
@@ -109,8 +109,8 @@ p.light { color: ; padding: 10px; }
     color: #333; 
 }
 body { margin: 0 auto;}
-.lightback { background-color: #FAFCF7; margin: 0px auto; padding-top: 16px; padding-bottom: 16px;}
-.greenback { background-color: #CCE6AA; margin: 0px auto; padding-top: 16px; padding-bottom: 16px;}
+.lightback { background-color: #FAFCF7; margin: 0px auto; padding: 16px 30px;}
+.greenback { background-color: #CCE6AA; margin: 0px auto; padding: 16px 30px;}
 img {
     display: block;
     margin-left: auto;
