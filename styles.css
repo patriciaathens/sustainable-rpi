@@ -110,8 +110,8 @@ p.light { color: #CCE6AA; padding: 10px; }
     color: #333; 
 }
 body { margin: 0 auto;}
-.lightback { background-color: #FAFCF7; margin: 0px auto; padding: 16px 30px;}
-.greenback { background-color: #CCE6AA; margin: 0px auto; padding: 16px 30px;}
+.lightback { background-color: #FAFCF7; margin: 0px auto; padding: 16px 30px; z-index: -1; }
+.greenback { background-color: #CCE6AA; margin: 0px auto; padding: 16px 30px; z-index: -1; }
 img {
     display: block;
     margin-left: auto;
