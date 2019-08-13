@@ -61,23 +61,18 @@ h3.darkbrown {  /* subtopic titles */
     font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 40px;
     color: #876654;
-    margin-top: 0px;
-    margin-left: 20px;
-    margin-bottom: 0px;
+    margin: 0px, 30px;
 }
 h4 {            /* sub-subtopic titles */
     font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 30px;
     color: #4B6C20;
-    margin-left: 20px;
-    margin-bottom: 0px;
+    margin: 0px, 30px;
 }
 h5 {            /* top-page descriptions + sub title italics*/
     font-family: 'Fira Sans Condensed', charcoal, sans-serif;
     font-size: 20px;
-    margin-top: 0px;
-    margin-left: 20px;
-    margin-bottom: 10px;
+    margin: 0px, 30px, 10px;
     color: #92B465; 
 }
 h5.dark {
@@ -100,7 +95,7 @@ h6 {            /* "Skip to:" in navbar */
 p {
     font-family: 'Fira Sans Condensed', charcoal, sans-serif;
     font-size: 20px;
-    margin-left: 20px;    
+    margin: 30px 0px;    
 }
 p.dark { color: #4B6C20; }
 p.grey { color: #333; }
