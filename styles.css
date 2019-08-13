@@ -264,7 +264,7 @@ i.fas, i.fab {
     transition: all .2s ease-in-out;
 }
 .links a:hover {
-    color: #4B6C20;
+    color: #333;
     transform: scale(1.1);
 }
 
