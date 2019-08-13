@@ -120,6 +120,10 @@ img {
 i.fas, i.fab {
     color: #FAFCF7;
 }
+#icon {
+    color: #FAFCF7;
+    padding: 10px 10px;
+}
 
 /* FRONT PAGE ELEMENTS: */
 /* top banner + text */
@@ -152,7 +156,7 @@ i.fas, i.fab {
     justify-content: stretch;
     align-items: flex-start;
     background-color: #4B6C20;
-    padding: 20px;
+    padding: 20px 20px;
 }
 .front-container:after {
     content: "";
