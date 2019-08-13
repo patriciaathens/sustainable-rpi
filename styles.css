@@ -104,7 +104,7 @@ p {
 }
 p.dark { color: #4B6C20; }
 p.grey { color: #333; }
-p.light { color: #CCE6AA; padding: 10px; }
+p.light { color: ; padding: 10px; }
 
 #centered { text-align: center; }
 #italic { font-style: italic; }
@@ -114,8 +114,8 @@ p.light { color: #CCE6AA; padding: 10px; }
     color: #333; 
 }
 body { margin: 0 auto;}
-.lightback { background-color: #CCE6AA; margin: 0px auto; padding-top: 16px; padding-bottom: 16px;}
-.greenback { background-color: #FAFCF7; margin: 0px auto; padding-top: 16px; padding-bottom: 16px;}
+.lightback { background-color: #FAFCF7; margin: 0px auto; padding-top: 16px; padding-bottom: 16px;}
+.greenback { background-color: #CCE6AA; margin: 0px auto; padding-top: 16px; padding-bottom: 16px;}
 img {
     display: block;
     margin-left: auto;
