@@ -61,11 +61,13 @@ h3.darkbrown {  /* subtopic titles */
     font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 40px;
     color: #876654;
+    margin-bottom: 0px;
 }
 h4 {            /* sub-subtopic titles */
     font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 30px;
     color: #4B6C20;
+    margin-bottom: 0px;
 }
 h5 {            /* top-page descriptions + sub title italics*/
     font-family: 'Fira Sans Condensed', charcoal, sans-serif;
