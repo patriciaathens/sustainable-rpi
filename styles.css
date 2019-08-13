@@ -95,7 +95,7 @@ h6 {            /* "Skip to:" in navbar */
 p {
     font-family: 'Fira Sans Condensed', charcoal, sans-serif;
     font-size: 20px;
-    margin-bottom: 10px;    
+    margin-bottom: 2px;    
 }
 p.dark { color: #4B6C20; }
 p.grey { color: #333; }
