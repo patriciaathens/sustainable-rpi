@@ -152,6 +152,7 @@ i.fas, i.fab {
     justify-content: stretch;
     align-items: flex-start;
     background-color: #4B6C20;
+    padding: 20px;
 }
 .front-container:after {
     content: "";
