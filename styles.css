@@ -258,14 +258,16 @@ i.fas, i.fab {
     text-decoration: none;  
     font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 16px;
-    color: #B1A084;   
+    color: #CAB492;   
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;    
     text-align: center;
+    transition: all .2s ease-in-out;
 }
 .links a:hover {
     color: #876654;
+    transform: scale(1.1);
 }
 
 /* The actual timeline (the vertical ruler) */
