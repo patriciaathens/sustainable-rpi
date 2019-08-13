@@ -61,6 +61,7 @@ h3.darkbrown {  /* subtopic titles */
     font-family: 'Archivo Narrow', charcoal, sans-serif;
     font-size: 40px;
     color: #876654;
+    margin-top: 0px;
     margin-left: 20px;
     margin-bottom: 0px;
 }
@@ -118,6 +119,7 @@ body { margin: 0 auto;}
 img {
     max-width: 100%;
     height: auto;
+    margin: auto auto;
 }
 
 i.fas, i.fab {
